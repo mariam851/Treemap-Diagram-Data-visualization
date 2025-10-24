@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: white;
+}
+
+h1, p {
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.tile {
+  stroke: white;
+}
+
+#legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.legend-entry {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.legend-item {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
